@@ -1,6 +1,6 @@
 # IBM Data Visualization with Python
 
-**Week 1 - Intro to DV Tools**  
+****Week 1 - Intro to DV Tools** ** 
 Matplotlib - John Hunter - EEG/EcoG Visualisation  
 Architecture-  
 Scripting Layer - pyplot  
