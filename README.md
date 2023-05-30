@@ -5,9 +5,9 @@ Matplotlib - John Hunter - EEG/EcoG Visualisation
 Architecture-  
 Scripting Layer - pyplot  
 Artist layer - artist  
-![Artist Layer](artist.png)  
+![Artist Layer](https://github.com/omkar334/IBM-DataVisualization/blob/main/artist.png?raw=true)  
 Backend Layer - FigureCanvas , renderer , eventAGG - anti grain geometry  
-![Backend Layer](backend.png)  
+![Backend Layer](https://github.com/omkar334/IBM-DataVisualization/blob/main/backend.png?raw=true) 
 
 %matplotlib inline - magic function - cannot modify a figure once its rendered  
 %matplotlib notebook - can modify  
