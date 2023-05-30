@@ -1,6 +1,6 @@
 # IBM Data Visualization with Python
 
-###Week 1 - Intro to DV Tools  
+### Week 1 - Intro to DV Tools  
 Matplotlib - John Hunter - EEG/EcoG Visualisation  
 Architecture-  
 Scripting Layer - pyplot  
@@ -12,30 +12,30 @@ Backend Layer - FigureCanvas , renderer , eventAGG - anti grain geometry
 %matplotlib inline - magic function - cannot modify a figure once its rendered  
 %matplotlib notebook - can modify  
 
-###Week 2 - Basic and Specialized DV Tools  
-######Line plot  
+### Week 2 - Basic and Specialized DV Tools  
+###### Line plot  
 series of data points called markers connected by straight lines  
 years=list(map(str, range(1980,2014)))  
 .columns, .index, .tolist()  
 
-######Area plot  
+###### Area plot  
 represents cumulated totals using numbers or  percentages over time  
 (kind=’area’)  
 
-######Histogram  
+###### Histogram  
 represents frequency distribution of a variable  
 (kind=’hist’)  
 count, bin_edges=np.histogram(df[’2012’])  
 
-######Bar chart  
+###### Bar chart  
 is used to compare the values of a variable at a given point in time  
 (kind=’bar’)  
 
-######Pie chart  
+###### Pie chart  
 circular statistic graphic  
 (kind=’pie’)  
 
-######Box plots  
+###### Box plots  
 (kind=’box’)  
 minimum = Q1 - 1.5 IQR  
 Q1 - 25%  
@@ -44,11 +44,11 @@ Q3 - 75%
 Maximum = Q3 + 1.5 IQR  
 Outliers - individual dots  
 
-######Scatter plot  
+###### Scatter plot  
 Displays two variables against each other  
 dependent x independent to find correlation  
 
-###Week 3 - Advanced Viz and Geospatial Data  
+### Week 3 - Advanced Viz and Geospatial Data  
 -Waffle chart - displays progres towards goals  
 converts a dataframe into tiles  
 Not builtin for matplotlib  
@@ -76,7 +76,7 @@ It requires a GeoJSON file
 Folium enables binding of data to map for chloropleth visualizations as well as passing visualizations as markers on the map  
 It has built-in tilesets from OpenStreetMap, Mapbox, Stamen, Mapbox API Keys.  
   
-###Week 4 - Creating Dashboards with Plotly and Dash  
+### Week 4 - Creating Dashboards with Plotly and Dash  
 Dashboard  
 	- Real time visuals  
 	- KPI  
