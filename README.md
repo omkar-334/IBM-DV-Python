@@ -6,8 +6,9 @@ Architecture-
 Scripting Layer - pyplot  
 Artist layer - artist  
 ![Artist Layer](https://github.com/omkar334/IBM-DataVisualization/blob/main/artist.png?raw=true)  
+https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true
 Backend Layer - FigureCanvas , renderer , eventAGG - anti grain geometry  
-![Backend Layer](https://github.com/omkar334/IBM-DataVisualization/blob/main/backend.png?raw=true) 
+![Backend Layer](/backend.png) 
 
 %matplotlib inline - magic function - cannot modify a figure once its rendered  
 %matplotlib notebook - can modify  
